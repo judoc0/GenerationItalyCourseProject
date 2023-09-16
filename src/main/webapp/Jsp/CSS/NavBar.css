@@ -1,0 +1,90 @@
+
+
+/* navbar style  */
+.navbar {
+  padding: 0;
+  height: 8vh;
+  /*background-color: #FFB645;*/
+  background-color: #ffffff;
+}
+.navbar-brand {
+  padding-left: 3.6rem;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+  padding: 10px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f04027;
+}
+/* dropdown style  */
+.dropdown-menu {
+  border-top: 2px solid #f04027;
+  min-width: 22rem;
+  margin-top: 15px;
+  padding: 10px 10px;
+}
+.dropdown-item:hover {
+  background-color: #f04027;
+  color: #ffffff;
+}
+
+
+.section1 {
+  background-color: #f04027;
+  margin-top: 10px;
+}
+.headerbox {
+  padding: 150px 0px;
+}
+
+
+.heading1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+
+
+.paragraph1 {
+  color: #ffffff;
+  margin-top: 10px;
+}
+.subbtn {
+  margin-top: 10px;
+  background-color: #ffffff;
+  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.viewmore:hover {
+  background-color: #f04027;
+  color: #ffffff;
+}
+
+/* responsive style */
+@media screen and (max-width: 600px) {
+  .dropdown-menu {
+    min-width: 10rem;
+  }
+
+  .navbar-collapse {
+    background-color: #f04027;
+    margin-top: 15px;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: #ffffff;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .headerbox {
+    padding: 20px 20px;
+  }
+}

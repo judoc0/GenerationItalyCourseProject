@@ -1,0 +1,42 @@
+
+
+footer {
+	
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    
+    text-align: center;
+  	height: 9.4vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    font-size: 22px;
+    box-sizing: border-box;
+  }
+  
+  /*  footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }*/
+
+  .sociallink a {
+  	padding-left: 7.3px;
+    padding-right: 7.3px;
+   
+    text-decoration: none;
+    color:#000000; 
+}
+
+	#ione {
+ /* Dimensione iniziale */
+      transition: transform 0.3s ease, font-size 0.3s ease; 
+}
+	 #ione:hover {
+      font-size: 1.2em; /* Dimensione più grande al passaggio del mouse */
+      transform: rotate(360deg); /* Rotazione di 360 gradi al passaggio del mouse */
+      cursor: pointer; /* Cambia il cursore del mouse */
+      color: #f4a825;
+    }

@@ -1,0 +1,50 @@
+
+
+footer {
+	display: flex;
+	flex-direction: column;
+   /* background-color: #FFB645;*/
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-align: center;
+    width: 100%;
+  	font-size: 22px;
+  	
+  }
+
+  footer a:hover {
+    color: #fff;
+  }
+  
+ 
+
+  a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.asdrubale{
+	height: 45%;
+	}
+.sociallink {
+	height: 40%;
+}
+
+.sociallink, .asdrubale{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+	#ione {
+ /* Dimensione iniziale */
+      transition: transform 0.3s ease, font-size 0.3s ease; 
+}
+	 #ione:hover {
+      font-size: 1.2em; /* Dimensione più grande al passaggio del mouse */
+      transform: rotate(360deg); /* Rotazione di 360 gradi al passaggio del mouse */
+      cursor: pointer; /* Cambia il cursore del mouse */
+      color: #f4a825;
+    }
